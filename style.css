@@ -10,3 +10,50 @@ html, body {
   width: 100%;
   height: 100%;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  margin: 15px;
+}
+
+header nav {
+  margin-right: 15px;
+}
+
+header nav a {
+  color: white;
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+
+  text-decoration: none;
+  margin: 10px;
+
+  transition: all 0.3s;
+}
+
+header nav a:hover {
+  color: #4ac6ff;
+}
+
+main .container {
+  margin-top: 30px;
+
+  display: flex;
+  align-items: row;
+  align-items: center;
+}
