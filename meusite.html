@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js" defer></script>
 	<title>Meu site de novo</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
 		<div class="container">
 			<div class="info-box">
 				<h1>Cadastre-se aqui!</h1>
-				<p>
+				<p id="texto">
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. In expedita dolorum sed, sunt
 					mollitia suscipit voluptatum tempora consectetur consequatur dicta assumenda 
 					magni molestiae, neque reiciendis maiores! Dolore veritatis velit consequatur.
@@ -30,9 +31,9 @@
 
 			<div class="login-box">
 				<form>
-					<input placeholder="Nome completo"> <br>
-					<input placeholder="Cargo"> <br>
-					<input placeholder="Estado civil"> <br>
+					<input id="nome" placeholder="Nome completo"> <br>
+					<input id="cargo" placeholder="Cargo"> <br>
+					<input id="estadoCivil" placeholder="Estado civil"> <br>
 					<input type="date">
 					
 					<label>Você é um robô?</label>
@@ -47,7 +48,8 @@
 						<option>Iraque</option>
 					</select>
 
-					<input type="checkbox"> <label>Concordo com os termos de cadastro.</label>
+					<label>Concordo com os termos de cadastro.</label>
+					<input id="checkTermos" type="checkbox">
 					<br>
 					<button>Cadastrar</button>
 				</form>
