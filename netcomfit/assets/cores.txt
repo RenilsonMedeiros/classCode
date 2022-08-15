@@ -1,0 +1,8 @@
+cabeçalho: #2B0700
+
+Corpo do site: 
+   #FFFFFF
+   #E83E1C
+
+rodapé: #2B0700
+   

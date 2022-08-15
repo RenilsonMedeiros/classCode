@@ -1,0 +1,164 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  margin: 15px;
+}
+
+header nav {
+  margin-right: 15px;
+}
+
+header nav a {
+  color: white;
+  font-size: 19px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+
+  text-decoration: none;
+  margin: 10px;
+
+  transition: all 0.3s;
+}
+
+header nav a:hover {
+  color: #4ac6ff;
+}
+
+main .container {
+  margin-top: 30px;
+
+  border: 2px solid none;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 1px #8c8c8f;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 30px;
+
+  display: flex;
+  align-items: row;
+  align-items: center;
+}
+
+.info-box {
+  max-width: 600px;
+}
+
+.info-box h1 {
+  font-size: 30px;
+}
+
+.info-box p {
+  font-size: 18px;
+  text-align: start;
+}
+
+.info-box img {
+  max-width: 80%;
+}
+
+.login-box form {
+  background-color: #4ac6ff;
+  border: 1px Solid none;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 2px #8c8c8f;
+
+  padding: 15px;
+  margin: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box form input {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-box form input:focus {
+  outline: 2px solid #8c8c8f
+}
+
+.login-box form button {
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.login-box form button:hover {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  color:#ffffff;
+
+  margin-top: 30px;
+}
+
+footer .container-footer .div-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 10px;
+}
+
+.div-footer p {
+  font-size: 19px;
+}
+
+footer .container-footer .div-footer nav a{
+  color: white;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+
+  text-decoration: none;
+  margin: 10px;
+
+  transition: all 0.3s;
+
+}
+
+footer .container-footer .div-footer nav a:hover {
+  color: #4ac6ff;
+}
