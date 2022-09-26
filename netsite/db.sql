@@ -4,3 +4,13 @@ COLLATE utf8mb4_unicode_ci;
 
 SHOW DATABASES;
 
+USE netcomfit_db;
+
+CREATE TABLE IF NOT EXISTS user(
+  id VARCHAR(20) PRIMARY KEY,
+  nome VARCHAR(30) DEFAULT "netcom",
+  peso DOUBLE NOT NULL,
+  altura DOUBLE NOT NULL,
+  imc DOUBLE
+);
+
