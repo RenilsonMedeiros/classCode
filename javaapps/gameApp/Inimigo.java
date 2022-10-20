@@ -1,4 +1,4 @@
-package netcom.javanet;
+package gameApp;
 
 public class Inimigo {
     private String nome;
