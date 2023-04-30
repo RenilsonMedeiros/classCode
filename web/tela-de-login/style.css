@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+div.app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app main, .app figure {
+  width: 50%;
+}
+
+.app figure img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main > img {
+  margin-left: 10vw;
+  margin-top: 40px;
+}
+
+main section {
+  margin-top: 5vw;
+  margin-left: 10vw;
+  max-width: 30vw;
+}
+
+main section .description {
+  margin-bottom: 40px;
+  margin-right: 33px;
+}
+
+main section .description h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #1e293b;
+}
+
+main section .description p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #475569;
+}
+
+main #login {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#login label, #login a {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e293b;
+  text-decoration: none;
+}
+
+#login a {
+  color: #7c3aed;
+}
+
+#login a:hover {
+  filter: brightness(0.6)
+}
+
+#login input {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin-top: 8px;
+}
+
+#login input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+#login .password-label {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#login .password-input {
+  position: relative;
+}
+
+#login .password-input img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+
+#login button {
+  margin: 16px 0;
+  padding: 16px 24px;
+  background-color: #7c3aed;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#login button:hover {
+  filter: opacity(90%);
+}
+
+#login p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #475569;
+}
+
+#login p a {
+  font-weight: 700;
+}
